@@ -2,13 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-  - node_modules
+    - node_modules
 env:
-- CI=true
+  - CI=true
 deploy:
   provider: heroku
   api_key:
     secure: oRY7HdMxgwo3LeET/DxNjg23kwucwO6UI9Qt9MqlppNHcOwkpq05Q1dSzOSbRES7Ylnoap/iN4Ou2iTszIotdu8gxEcZ+XWte/x9b2+RrV++sSonkZ4RlVrd69WtFy7iVzV5DIeTFNMwqQ1wq7bYOsBTUS8u52J3j/sbG1/9U2UrlUv53v8ih1hRtkvRIP5JFWPLssS/yLmsVNpF8pr0f9p1AtAwWxQcVmWiIdKLt6O2lT/hkHEcuA1n8OsagqRaQXXfMDWrtzWxUxH8PcP6QLaD7Q2e3aT3F5rjXETDyfjbWgfeyTQ7+yOUziJNN2qT8HQjTzsCwOoE+z4w7rTsOR+K/W4DfVbb7X7sWdYAmekxyJKlnTYgJPmQ5+uzSkk9vyn/pkr1WyjvbN0c6WdhwjfLW1mVhbPJJ/EOoNbjM2CPTmDWdh9wzM/IfDytLeJH/EXUQ2v7nFr57TEwSLM1J/R3i0+DcJ96TvgLpKB96V0TXOn2IXIepy5VDwY5x9m/Zg/SpZO2ranhD9bpEjWoFRzddlaN1Wdct3RP90f9dHyGAWEeoJsKixtNZLeHWrULZBQQISxEwrqvM/KNjDW4IuDTUzBhxkN/AlU7I7bdeJk8gaH4V7SE6GCTOI812a0fw36pxvBbXPpqWKNx/leMNDxLkU/QOASMMQDmQWyPkrU=
-  app: react-hot-cold
+  app: vast-mesa-35545
   on:
     repo: namninja/react-hot-cold
